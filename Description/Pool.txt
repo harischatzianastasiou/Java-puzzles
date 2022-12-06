@@ -1,0 +1,67 @@
+Your job is to take code snippets from the pool and place them into the blank lines in the code.
+
+The pool : 
+
+System.out.print(" ");
+System.out.print("a");
+System.out.print("n");
+System.out.print("an");
+
+x>0
+x<1
+x>1
+x>3
+x<4
+
+x=x+1;
+x=x+2;
+x=x-2;
+x=x-1;
+
+System.out.print("noys");
+System.out.print("oise");
+System.out.print(" oyster");
+System.out.print("annoys");
+System.out.print("noise");
+
+
+The code:
+
+class PoolPuzzleOne {
+  public static void main(String [] args) {
+    int x = 0;
+
+    while ( __________ ) {
+
+       _____________________________
+       if ( x < 1 ) {
+         ___________________________
+       }
+       _____________________________
+
+       if ( __________ ) {
+         ____________________________
+
+         ___________
+       }
+       if ( x == 1 ) {
+
+        ____________________________
+       }
+       if ( ___________ ) {
+
+         ____________________________
+       }
+       System.out.println();
+
+       ____________
+    }
+  }
+}
+
+ You may not use the same snippet more than once, and you won’t need to use all the snippets.
+ Your goal is to make a class that will compile and run and produce the following output:
+ 
+ a noise
+ annoys
+ an oyster
